@@ -15,7 +15,7 @@ EXCEL_API = "https://api.github.com/repos/otavilobato/pecas1/contents/DF_SALDO_P
 
 USUARIOS = {
     "olobato": hashlib.sha256("9410".encode()).hexdigest(),
-    "rafael": hashlib.sha256("2712".encode()).hexdigest(),
+    "rafaell": hashlib.sha256("2712".encode()).hexdigest(),
     "diogoff": hashlib.sha256("2712".encode()).hexdigest()
 }
 
