@@ -10,12 +10,13 @@ import os
 # =========================
 # CONFIGURAÇÃO
 # =========================
-EXCEL_URL = "https://github.com/otavilobato/pecas1/raw/refs/heads/main/SALDO_PECAS.xlsx"
-EXCEL_API = "https://api.github.com/repos/otavilobato/pecas1/contents/SALDO_PECAS.xlsx"
+EXCEL_URL = "https://github.com/otavilobato/pecas1/raw/refs/heads/main/DF_SALDO_PECAS.xlsx"
+EXCEL_API = "https://api.github.com/repos/otavilobato/pecas1/contents/DF_SALDO_PECAS.xlsx"
 
 USUARIOS = {
     "olobato": hashlib.sha256("9410".encode()).hexdigest(),
-    "gladeira": hashlib.sha256("0002".encode()).hexdigest()
+    "rafael": hashlib.sha256("2712".encode()).hexdigest(),
+    "diogoff": hashlib.sha256("2712".encode()).hexdigest()
 }
 
 # =========================
