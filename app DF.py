@@ -10,8 +10,8 @@ import os
 # =========================
 # CONFIGURAÇÃO
 # =========================
-EXCEL_URL = "https://github.com/otavilobato/pecas1/raw/refs/heads/main/DF_SALDO_PECAS.xlsx"
-EXCEL_API = "https://api.github.com/repos/otavilobato/pecas1/contents/DF_SALDO_PECAS.xlsx"
+EXCEL_URL = "https://github.com/otavilobato/df/raw/refs/heads/main/DF_SALDO_PECAS.xlsx"
+EXCEL_API = "https://api.github.com/repos/otavilobato/df/contents/DF_SALDO_PECAS.xlsx"
 
 USUARIOS = {
     "olobato": hashlib.sha256("9410".encode()).hexdigest(),
