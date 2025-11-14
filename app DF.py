@@ -31,7 +31,7 @@ def carregar_dados():
     try:
         r = requests.get(EXCEL_URL, headers=headers)
         if r.status_code == 200:
-            df = pd.read_excel(io.BytesIO(r.content), sheet_name="PRINCIPAL")
+            df = pd.read_excel(io.BytesIO(r.content), sheet_name="DF_PECAS")
             return df
         else:
             st.error(f"❌ Falha ao carregar planilha (código {r.status_code}).")
